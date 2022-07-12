@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Crocodile Feet DEMO';
+    src: url('CrocodileFeetDEMO-Regular.woff2') format('woff2'), url('CrocodileFeetDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Holidays Homework';
+    src: url('HolidaysHomework.woff2') format('woff2'), url('HolidaysHomework.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hamleys</title>
+
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@belive-tech/player-widget@latest/dist/player.min.js">
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/hamley-logo.png" alt="hamley-logo">
+                </a>
+                <a href="#">
+                    <img src="assets/images/NowLive-logo.png" alt="nowlive-logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="slider banner-slider">
+                <div>
+                    <div class="banner-img">
+                        <img src="assets/images/banner-desk.jpg" alt="" class="hide-mob">
+                        <img src="assets/images/banner-mob.jpg" alt="" class="hide-desk">
+                        <div class="banner-caption">
+                            <p class="banner-title">
+                                Rabbito Red <br> and the End <br> of Screen Time
+                            </p>
+                            <p class="name">
+                                <span>by</span> Saru Sharma
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="add-calender">
+                        <div class="container">
+                            <p>Discover with Saru how parents can cut out excessive screen time and <br> engage kids with Rabitto Red's fun features </p>
+                            <a href="#" class="white-btn">Play Now</a>
+                        </div>
+
+                    </div>
+
+                    <div class="counter-sec">
+                        <div id="countdown" style="display: none;">
+                            <p>Starting in</p>
+                            <ul class="countdown-timer">
+                                <li><span id="days"></span> : </li>
+                                <li><span id="hours"></span> :</li>
+                                <li><span id="minutes"></span> : </li>
+                                <li><span id="seconds"></span></li>
+                            </ul>
+                        </div>
+                        <div id="live" class="live-div blink">
+                            <p><span class="green-dot"></span> Live</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- <div>
+                    <div class="banner-img">
+                        <img src="assets/images/banner-desk.jpg" alt="" class="hide-mob">
+                        <img src="assets/images/banner-mob.jpg" alt="" class="hide-desk">
+                        <div class="banner-caption">
+                            <p class="banner-title">
+                                Back <br>to School <br> Swag
+                            </p>
+                            <p class="name">
+                                <span>by</span> Sameera Reddy
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="add-calender">
+                        <div class="container">
+                            <p>Vote on the coolest back to school swag with Sameera</p>
+                            <a href="#" class="white-btn">Play Now</a>
+                        </div>
+
+                    </div>
+
+                    <div class="counter-sec">
+                        <div id="live" class="live-div blink">
+                            <p><span class="green-dot"></span> Live</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="banner-img">
+                        <img src="assets/images/banner-desk.jpg" alt="" class="hide-mob">
+                        <img src="assets/images/banner-mob.jpg" alt="" class="hide-desk">
+                        <div class="banner-caption">
+                            <p class="banner-title">
+                                Gadget Season
+                            </p>
+                            <p class="name">
+                                <span>by</span> Saru Sharma or Sameera
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="add-calender">
+                        <div class="container">
+                            <p>Unbox the collest gadgets for kids with Sameera</p>
+                            <a href="#" class="white-btn">Add to Calender</a>
+                        </div>
+
+                    </div>
+                </div> -->
+
+            </div>
+
+
+        </div>
+
+        <!-- banner end -->
+
+
+
+        <div class="recent-videos">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="ribbon-heading">
+                        <span>Recent Videos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 recent-tab">
+                        <div class="tab-heading">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Unboxing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Product Launch</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Live</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="carousel one">
+                                    <div class="recent-slider one">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider two">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider three">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider four">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider five">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider six">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider seven">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="tabs-2" role="tabpanel">
+                                <div class="carousel">
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tabs-3" role="tabpanel">
+                                <div class="carousel">
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="recent-slider">
+                                        <div class="slider-image">
+                                            <img src="assets/images/video-thumb-img.png" alt="slide 1">
+                                            <p class="video-time">
+                                                10:24
+                                            </p>
+                                            <a href="https://www.youtube.com/embed/qTqXsSCxW58" data-fancybox="" class="play-icon" id="beLive"><img src="assets/images/play-icon.png" alt=""></a>
+                                        </div>
+                                        <div class="slider-caption">
+                                            <h3>MIKO 3 Pixie Blue</h3>
+                                            <p>It is a long established fact that a reader will be distracted by the readable content</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="featured-products">
+            <div class="feature-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="heading">Featured products</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider featured-slider  animatable fadeIn">
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn">
+                          Know more <div class="arrow-right"></div>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox="" href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn" id="beLive">
+                              Know more <div class="arrow-right"></div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox="" href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn" id="beLive">
+                              Know more <div class="arrow-right"></div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox="" href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn" id="beLive">
+                              Know more <div class="arrow-right"></div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox="" href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn" id="beLive">
+                                Know more <div class="arrow-right"></div>
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-box">
+                            <div class="img-sec">
+                                <img src="assets/images/pindaloo-img.png" alt="">
+                            </div>
+                            <div class="box-detail">
+                                <h4>Simba Pindaloo <br>Ball Game </h4>
+                                <p>Ball Sports & Accessories </p>
+                                <a data-fancybox="" href="https://www.youtube.com/embed/qTqXsSCxW58" class="knowMore-btn" id="beLive">
+                              Know more <div class="arrow-right"></div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="discover-interactive">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="ribbon-heading">
+                        <span>Discover Interactive</span>
+                    </h2>
+
+                    <p class="discover-text">
+                        It is a long established fact that a reader will be distracted by the readable content
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 discover-slider">
+                        <div class="carousel">
+                            <div class="recent-slider">
+                                <div class="slider-image">
+                                    <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" id="beLive" title="Eko project">
+                                        <img src="assets/images/Catch-ball-game.png" alt="slide 1">
+                                        <div class="interactive-btn"><img src="assets/images/interactive-video-icon.png" alt=""> Interactive</div>
+                                        <p class="video-time">
+                                            10:24
+                                        </p>
+                                        <!-- <iframe src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" title="Eko project" width="100%" height="315px" allowfullscreen allow="autoplay; fullscreen" class="play-icon" id="beLive"></iframe> -->
+                                        <div class="play-icon"><img src="assets/images/play-icon.png" alt=""></div>
+                                    </a>
+                                </div>
+                                <div class="slider-box slider-caption">
+                                    <div class="img-sec">
+                                        <img src="assets/images/simba-game-small.png" alt="">
+                                    </div>
+                                    <div class="box-detail">
+                                        <h4>Squap Catch <br>Ball Game </h4>
+                                        <p>The new ultimate <br>skill ball game </p>
+                                        <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" class="knowMore-btn" id="beLive" title="Eko project">
+                                      Know more <div class="arrow-right"></div>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-slider">
+                                <div class="slider-image">
+                                    <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" id="beLive">
+                                        <img src="assets/images/Action-tracks.png" alt="slide 1">
+                                        <div class="interactive-btn"><img src="assets/images/interactive-video-icon.png" alt=""> Interactive</div>
+                                        <p class="video-time">
+                                            10:24
+                                        </p>
+                                        <div class="play-icon"><img src="assets/images/play-icon.png" alt=""></div>
+                                    </a>
+                                </div>
+                                <div class="slider-box  slider-caption">
+                                    <div class="img-sec">
+                                        <img src="assets/images/action-tracks-small.png" alt="">
+                                    </div>
+                                    <div class="box-detail">
+                                        <h4>Amazing Action Tracks</h4>
+                                        <p>Zoom into excitement </p>
+                                        <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" class="knowMore-btn" id="beLive" title="Eko project">
+                                      Know more <div class="arrow-right"></div>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recent-slider">
+                                <div class="slider-image">
+                                    <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" id="beLive">
+                                        <img src="assets/images/Stunt-car.png" alt="slide 1">
+                                        <div class="interactive-btn"><img src="assets/images/interactive-video-icon.png" alt=""> Interactive</div>
+                                        <p class="video-time">
+                                            10:24
+                                        </p>
+                                        <div class="play-icon"><img src="assets/images/play-icon.png" alt=""></div>
+                                    </a>
+                                </div>
+                                <div class="slider-box  slider-caption">
+                                    <div class="img-sec">
+                                        <img src="assets/images/stunt-car-small.png" alt="">
+                                    </div>
+                                    <div class="box-detail">
+                                        <h4>E Gale Stunt <br> Car 49Mhz </h4>
+                                        <p>Perform Tricks And Stunts </p>
+                                        <a data-src="https://play.eko.com/embed?id=GL9Y5XqdAf&autoplay=true" data-fancybox="" data-type="iframe" class="knowMore-btn" id="beLive">
+                                      Know more <div class="arrow-right"></div>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-hamleys">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 experience-zone">
+                        <img src="assets/images/teddy-img.png" alt="">
+                        <h2>
+                            About Hamleys
+                        </h2>
+                        <h3>Experience zone</h3>
+                        <p>NowLive is India's first LiveShopping Entertainment Company, owned by Networkbay Retail. Our ambition is to provide exciting Live Shopping experiences for shoppers of all ages.
+                        </p>
+                        <p>
+                            We partner with brands and creators to create LiveShopping experiences which delight shoppers.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="faqs-sec animatable fadeIn">
+            <div class="container">
+                <h2 class="heading">FAQS</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Q. How Does LiveShopping Work: <i class="fa fa-plus"></i></button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Live Shopping is the ability to shop and buy a product while watching a live stream. No longer is it needed to see a video, and then go to the website. While seeing a live shopping experience, you could immediately click
+                                    on the buy button in the live stream and buy the product. Or chat with your host and give reactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo">Q. How can I interact with the host during the show: <i class="fa fa-plus"></i></button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Every live show has a chat box at the bottom of the show. You can use this to communicate to the host and give feedback. Of course, due to traffic the host may not be able to reply back immediately but our team will review
+                                    and try our best to respond.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree">Q. How does Interactive video work:<i class="fa fa-plus"></i></button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>An interactive video allows the viewer to click on different hotspots on the video and control how they see the video. They can click on different buttons and action items and discover the product for themselves.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright © 2022 Hamleys. All Rights Reserved.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/Draggable.min.js"></script>
+    <!-- <script src="https://assets.codepen.io/16327/InertiaPlugin.min.js"></script> -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        var scriptElement = document.createElement("script");
+        scriptElement.src = "belive-player-widget.min.js";
+        scriptElement.onload = function() {
+            const player = window.BeLivePlayerWidget.initialize({
+                showId: "8c76fc34-960b-444c-b5aa-c7173d051cf2",
+                triggerElement: document.getElementById("YOUR_ELEMENT_ID"),
+            });
+        };
+        document.body.appendChild(scriptElement);
+
+
+        // carousel height
+
+        $('.tab-pane').each(function() {
+
+            $(this).css('height', $('.carousel', this).outerHeight());
+            $(this).css('height', $('.recent-slider', this).outerHeight());
+
+        });
+
+        $('.discover-slider').each(function() {
+            $(this).css('height', $('.carousel', this).outerHeight());
+            $(this).css('height', $('.recent-slider', this).outerHeight());
+
+        });
+
+
+        $(document).ready(function() {
+            var doAnimations = function() {
+
+                // Calc current offset and get all animatables
+                var offset = $(window).scrollTop() + $(window).height(),
+                    $animatables = $('.animatable');
+
+                // Unbind scroll handler if we have no animatables
+                if ($animatables.length == 0) {
+                    $(window).off('scroll', doAnimations);
+                }
+
+                // Check all animatables and animate them if necessary
+                $animatables.each(function(i) {
+                    var $animatable = $(this);
+                    if (($animatable.offset().top + $animatable.height() - 20) < offset) {
+                        $animatable.removeClass('animatable').addClass('animated');
+                    }
+                });
+
+            };
+            $(window).on('scroll', doAnimations);
+            $(window).trigger('scroll');
+
+        });
+    </script>
+
+</body>
+
+</html>
